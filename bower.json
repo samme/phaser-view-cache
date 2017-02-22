@@ -1,0 +1,29 @@
+{
+  "name": "phaser-view-cache",
+  "description": "Lists the contents of the game cache",
+  "main": "index.js",
+  "authors": [
+    "samme"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "phaser",
+    "phaser-debug"
+  ],
+  "homepage": "https://github.com/samme/phaser-view-cache",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.coffee",
+    "*.html",
+    "*.png",
+    "example/"
+  ],
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}

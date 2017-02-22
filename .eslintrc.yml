@@ -1,0 +1,29 @@
+env:
+  browser: yes
+extends: 'eslint:recommended'
+globals:
+  Phaser: no
+rules:
+  indent:
+    - 'off'
+  linebreak-style:
+    - error
+    - unix
+  no-console:
+    - error
+    - allow:
+      - group
+      - groupCollapsed
+      - groupEnd
+      - log
+      - table
+  no-shadow:
+    - error
+  no-unused-vars:
+    - error
+  quotes:
+    - warn
+    - double
+  semi:
+    - error
+    - always
