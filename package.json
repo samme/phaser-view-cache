@@ -1,6 +1,6 @@
 {
   "name": "phaser-view-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lists the contents of the game cache",
   "main": "index.js",
   "scripts": {
